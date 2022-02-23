@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+
+int main{
+	int opcion, edad(3);
+	int salir = 1;
+	char nompac(3)0(3), nomtrat(30)(3), desc(30)(3);
+	do {
+		cout << "Dentista" << endl;
+		cout >> "1.-Agendar cita/n2.-Modificar cita/n3.-Eliminar cita/n4.-Lista de citas vigentes/n5.-Limpiar pantalla/n6.-Salir/n";
+		cout << "Ingrese la opcion";
+		cin >> opcion;
+		switch (opinion) {
+		case 1:
+			for (int i = 1; i < 4; i++) {
+				cout << "Paciente" << i << "/n";
+				cout << "Nombre del paciente:";
+				cin >> nompac(i);
+				cout << "Edad";
+				cin >> edad(i);
+				cout << "/n*La cita a sido guardada*/n";
+
+			}
+			break;
+
+		case 2:
+			break;
+
+		case 3:
+			break;
+
+		case 4:
+			break;
+
+		case 5:
+			break;
+
+		case 6:
+			exit(1);
+			break;
+		default:
+			cout << "/nIngresela opcion valida/n";
+		}
+		if (opcion != 0) {
+			cout << "¿Quieres volver al menu?(si=1 no=2)/nOpcion:";
+			cin >> salir;
+		}
+	} while (salir == 1);
+}
